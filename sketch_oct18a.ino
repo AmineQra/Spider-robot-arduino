@@ -25,10 +25,10 @@ const float sit_angles[4][3] = {
   };
 
 const float stand_angles[4][3] = {
-    {125, 70, 90},  // Leg R2 - {H, F, T}
-    {55, 85, 90},   // Leg R1 - {H, F, T}
-    {55, 70, 90},  // Leg L1 - {H, F, T}
-    {125, 70, 90} // Leg L2 - {H, F, T}
+    {125, 65, 90},  // Leg R2 - {H, F, T}
+    {55, 115, 90},   // Leg R1 - {H, F, T}
+    {55, 100, 90},  // Leg L1 - {H, F, T}
+    {125, 65, 90} // Leg L2 - {H, F, T}
   };
 
 //correction R2 (-5, 0, 0)
@@ -130,6 +130,9 @@ void setup() {
 
 
 void loop() {
+
+
+  delay(1500);
 
   stand();
 
